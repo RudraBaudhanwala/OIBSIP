@@ -1,167 +1,120 @@
 # 🏠 House Price Prediction using Linear Regression
 
-## 📌 Project Overview
+## About the Project
 
-This project focuses on predicting house prices using Machine Learning techniques. A Linear Regression model was developed to estimate property prices based on various features such as property type, location, city, number of bedrooms, number of bathrooms, and area.
+This project focuses on predicting house prices using the Linear Regression algorithm. The goal was to understand how different factors such as area, number of bedrooms, bathrooms, parking spaces, and furnishing status affect the price of a house.
 
-The project demonstrates the complete machine learning workflow, including data preprocessing, exploratory data analysis (EDA), feature engineering, model training, evaluation, and comparison with regularized regression models.
-
----
-
-## 🎯 Objective
-
-To build and evaluate a Linear Regression model capable of predicting house prices accurately using housing-related features.
+I completed this project as part of my Data Analytics Internship at Oasis Infobyte.
 
 ---
 
-## 🛠️ Technologies Used
-
-* Python
-* Jupyter Notebook
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-learn
-
----
-
-## 📂 Dataset Information
+## Dataset
 
 The dataset contains information about residential properties, including:
 
-* Property Type
-* Location
-* City
-* Purpose
-* Bedrooms
-* Bathrooms
-* Area (Marla)
-* Price (Target Variable)
+- Area
+- Bedrooms
+- Bathrooms
+- Stories
+- Parking
+- Main Road Access
+- Air Conditioning
+- Furnishing Status
+- House Price (Target Variable)
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## What I Did
 
-The following analyses were performed:
+### 1. Data Preprocessing
+- Loaded the dataset using Pandas
+- Checked for missing values
+- Converted categorical data into numerical format
+- Prepared the dataset for model training
 
-* Dataset overview and structure inspection
-* Missing value analysis
-* Duplicate record detection
-* Descriptive statistical analysis
-* House price distribution visualization
-* Correlation heatmap analysis
-* Feature selection discussion
+### 2. Exploratory Data Analysis
+- Studied relationships between different features
+- Generated a correlation heatmap
+- Identified factors that influence house prices
 
----
+### 3. Model Building
+- Split the dataset into training and testing sets
+- Applied Linear Regression using Scikit-learn
+- Trained the model on the housing dataset
 
-## ⚙️ Data Preprocessing
-
-* Removed unnecessary columns
-* Handled missing values
-* Removed duplicate records
-* Applied One-Hot Encoding to categorical variables
-* Split dataset into training (80%) and testing (20%) sets
-
----
-
-## 🤖 Model Development
-
-### Linear Regression
-
-A Linear Regression model was trained to predict house prices using the selected features.
-
-### Model Evaluation Metrics
-
-* Mean Squared Error (MSE)
-* Root Mean Squared Error (RMSE)
-* R² Score
+### 4. Model Evaluation
+The model was evaluated using:
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- R² Score
 
 ---
 
-## 📈 Visualizations
+## Key Observations
 
-The project includes:
-
-* House Price Distribution Plot
-* Correlation Heatmap
-* Actual vs Predicted Price Scatter Plot
-* Residual Plot
+- Larger houses generally have higher prices.
+- Houses with air conditioning tend to be more expensive.
+- Furnishing status has an impact on property value.
+- Area is one of the most important factors affecting house price.
 
 ---
 
-## 🔍 Model Comparison
+## Technologies Used
 
-To improve understanding of regression techniques, the following models were compared:
-
-* Linear Regression
-* Ridge Regression
-* Lasso Regression
-
-### Results
-
-| Model             | R² Score                    |
-| ----------------- | --------------------------- |
-| Linear Regression | *Obtained during execution* |
-| Ridge Regression  | 0.6547                      |
-| Lasso Regression  | 0.6533                      |
-
-Ridge Regression showed slightly better performance compared to Lasso Regression.
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
 ---
 
-## 📋 Key Findings
+## Files Included
 
-* Property area significantly impacts house prices.
-* Bedrooms and bathrooms show positive correlation with property value.
-* Location and city play a crucial role in determining housing prices.
-* Linear Regression successfully predicts house prices with reasonable accuracy.
-* Ridge Regression provided marginally better generalization performance.
-
----
-
-## 🚀 Project Workflow
-
-1. Data Collection
-2. Data Cleaning
-3. Exploratory Data Analysis
-4. Feature Engineering
-5. Data Encoding
-6. Train-Test Split
-7. Model Training
-8. Model Evaluation
-9. Model Comparison
-10. Conclusion
+``` id="1qyhql"
+House_Price_Prediction.ipynb
+House_Price_Prediction.csv
+README.md
+Screenshots/
+```
 
 ---
 
-## 📸 Project Screenshots
+## What I Learned
 
-* Dataset Overview
-* Missing Value Analysis
-* Correlation Heatmap
-* Price Distribution Plot
-* Model Evaluation Results
-* Actual vs Predicted Plot
-* Residual Analysis
+Through this project, I gained practical experience in:
 
----
-
-## 📌 Conclusion
-
-This project successfully demonstrates the application of Linear Regression for house price prediction. Through data preprocessing, exploratory analysis, and model evaluation, meaningful insights were extracted from the housing dataset. The model achieved satisfactory predictive performance and provides a strong foundation for more advanced machine learning approaches in real estate price forecasting.
+- Data preprocessing
+- Feature encoding
+- Data visualization
+- Linear Regression
+- Model evaluation
+- Predictive analytics
 
 ---
 
-## 👨‍💻 Author
+## Screenshots
 
-**Rudra**
-
-Data Analytics Intern – Oasis Infobyte
+Project outputs and visualizations are available in the Screenshots folder.
 
 ---
 
-## ⭐ Acknowledgement
+## Author
 
-This project was completed as part of the Data Analytics Internship Program at Oasis Infobyte.
+**Rudra Baudhanwala**
 
+IT Engineering Student
+
+Data Analytics Intern at Oasis Infobyte
+
+---
+
+## Internship Task
+
+Oasis Infobyte Data Analytics Internship
+
+Level 2 – Task 3
+
+Predicting House Prices with Linear Regression
