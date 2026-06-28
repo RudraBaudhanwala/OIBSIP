@@ -99,6 +99,3 @@ This internship helped me gain practical experience in:
 
 It also improved my problem-solving skills and understanding of the data analytics workflow.
 
----
-
-## Repository Structure
