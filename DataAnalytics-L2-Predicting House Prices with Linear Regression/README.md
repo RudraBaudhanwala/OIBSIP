@@ -115,6 +115,6 @@ Data Analytics Intern at Oasis Infobyte
 
 Oasis Infobyte Data Analytics Internship
 
-Level 2 – Task 3
+Level 2 – Task 1
 
 Predicting House Prices with Linear Regression
